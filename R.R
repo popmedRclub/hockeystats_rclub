@@ -6,7 +6,7 @@ setwd("~/Desktop/Rclub")
 
 #each package you load understand certain comands.. however, we don't want to load every package we have. Only load what is necessary and if later on you need a package, you can always load one later. 
 
-#we want to constantly save our work, we can do this by saving the R script-> however this disadvantage is we have to run all the code again. To combat this issue we can save it as a project! 
+#we want to constantly save our work, we can do this by saving the R script-> however a disadvantage of this is we have to run all the code again. To combat this issue we can save it as a project! 
 
 
 library("tidyverse")
@@ -26,7 +26,7 @@ hockey_stats <- read_csv("top_5_points_oct30.csv")
 #there is read_tsv, read_delim, read_file
 
 ################################################################################################################################
-#want to upload an excel sheet? you use a different package like -> library("openxlsx"), through the help button on the bottom right quadrant, you can look up what that package can do by typing openxlsx!!!
+#want to upload an excel sheet? you use a different package like -> library("openxlsx"), through the help button on the bottom right quadrant, you can look up what that package can do by typing "openxlsx" in the help search box!!!
 ################################################################################################################################
 
 #back to our example
